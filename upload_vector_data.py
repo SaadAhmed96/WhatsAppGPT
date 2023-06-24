@@ -44,7 +44,7 @@ if __name__ == "__main__":
     print("OpenAI Embeddings Initialized...")
 
     # load docs
-    texts = load_docs(file_name="./doctors_list.pdf")
+    texts = load_docs(file_name="/home/saad/upwork/WhatsAppGPT/doctors_list.pdf")
     print("Documents Loaded...")
 
     # upsert docs to pinecone
