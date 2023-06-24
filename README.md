@@ -146,7 +146,7 @@ Congratulations! You have successfully set up and configured the WhatsApp Chatbo
 
 # Screenshot
 
-![Bot Answering questions from a research paper](./images/Screenshot 2023-06-25 004934.png)
+![Bot Answering questions from a research paper](/images/Screenshot 2023-06-25 004934.png)
 
 
 References:
