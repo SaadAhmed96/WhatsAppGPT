@@ -145,9 +145,7 @@ Finally, go to Twilio and navigate to the Messaging section inside WhatsApp Send
 Congratulations! You have successfully set up and configured the WhatsApp Chatbot project. Users can now interact with the chatbot via WhatsApp messaging, and the responses will be powered by ChatGPT API and contextual information obtained from Pinecone's vector index.
 
 # Screenshot
-
-![Bot Answering questions from a research paper](/images/Screenshot 2023-06-25 004934.png)
-
+![Answering questions from a medical research paper.](https://github.com/SaadAhmed96/WhatsAppGPT/assets/30757857/5808f11e-f0ff-46bc-acc6-ac03a4560ba5)
 
 References:
 
