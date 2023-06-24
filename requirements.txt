@@ -1,0 +1,9 @@
+fastapi==0.95.1
+twilio==8.1.0
+langchain==0.0.150 
+python-dotenv==1.0.0
+openai==0.27.6
+uvicorn==0.22.0
+urllib3==1.26.15
+python-multipart==0.0.6
+ngrok==0.7.0
