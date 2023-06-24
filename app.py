@@ -15,7 +15,7 @@ auth_token = os.getenv("TWILIO_AUTH_TOKEN")
 
 # initialize the app
 app = FastAPI()
-# handler = Mangum(app)
+handler = Mangum(app)
 
 
 # create the twilio client to interact with Twilio platform

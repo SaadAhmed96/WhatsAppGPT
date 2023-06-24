@@ -26,8 +26,20 @@ def get_msg_details(req_data, debug=True):
     return incoming_message, human_whatsapp_number, twilio_whatsapp_number
 
 
-# Sending message logic through Twilio Messaging API
 def send_message(incoming_msg, client, human_whatsapp_number, twilio_whatsapp_number):
+    """
+    Sends a message using the Twilio Messaging API.
+
+    Args:
+        incoming_msg (str): The incoming message to be sent.
+        client (Twilio Client): The Twilio client object used for sending messages.
+        human_whatsapp_number (str): The recipient's WhatsApp number.
+        twilio_whatsapp_number (str) : Your Twilio-provided WhatsApp number.
+
+    Returns:
+        None
+            This function does not return any value.
+    """
     model_response = get_gpt_response(incoming_msg)
 
     message = client.messages.create(
