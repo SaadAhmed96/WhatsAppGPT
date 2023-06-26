@@ -7,11 +7,16 @@ By leveraging the potential of natural language processing and vector databases,
 Here's an overview of the project's logical flow:
 
 • User sends a message to the WhatsApp number. 
+
 • Twilio's webhook directs the message to a Lambda function for processing. 
 • The Lambda function parses the message and generates embeddings. 
+
 • The embeddings are used to search Pinecone's vector index for similar text. 
+
 • The retrieved contextual information is incorporated into the ChatGPT model. 
+
 • ChatGPT generates a response based on the user's query and the extracted context. 
+
 • The response is sent back to the user through the WhatsApp interface.
 
 This project showcases the potential of AI-powered chatbots to provide personalized and informed interactions, allowing users to obtain accurate and contextually relevant answers to their questions.
